@@ -66,7 +66,6 @@ class JokesViewModel @Inject constructor(private val jokesRepo: JokesRepo): View
             }
         }
     }
-
     fun deleteJokeViaId(id: Int){
         viewModelScope.launch {
             try {
